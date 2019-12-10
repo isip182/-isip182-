@@ -15,6 +15,7 @@ namespace Деньги_в_каждый_карман_isip182НСГВ
         public Form2()
         {
             InitializeComponent();
+         int s
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -27,7 +28,41 @@ namespace Деньги_в_каждый_карман_isip182НСГВ
         {
             textBox1.Text = "";
             textBox1.Text += trackBar1.Value;
-            //textBox1.Text = "";
+           
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void trackBar2_Scroll(object sender, EventArgs e)
+        {
+            textBox2.Text = "";
+            textBox2.Text += trackBar2.Value;
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void trackBar3_Scroll(object sender, EventArgs e)
+        {
+            textBox3.Text = "";
+            textBox3.Text += trackBar3.Value;
+           
+             
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }
